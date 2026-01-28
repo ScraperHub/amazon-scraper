@@ -1,0 +1,41 @@
+{
+  "name": "amazon-scraper",
+  "version": "1.0.0",
+  "description": "Scrape millions of Amazon pages effortlessly using Crawlbase's Amazon scraping solution",
+  "main": "examples/amazon-scraper.js",
+  "scripts": {
+    "start": "node examples/amazon-scraper.js",
+    "scrape:product": "node examples/scrape-product.js",
+    "scrape:reviews": "node examples/scrape-reviews.js",
+    "scrape:search": "node examples/scrape-search.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/amazon-scraper.git"
+  },
+  "keywords": [
+    "amazon",
+    "scraper",
+    "web-scraping",
+    "data-extraction",
+    "crawlbase",
+    "ecommerce",
+    "price-monitoring",
+    "product-data",
+    "api"
+  ],
+  "author": "Crawlbase",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/amazon-scraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/amazon-scraper#readme",
+  "dependencies": {
+    "crawlbase": "^2.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
