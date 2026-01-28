@@ -4,7 +4,6 @@
        style="max-width: 100%; border: 0;">
 </a>
 
-
 # Amazon Scraper
 
 Scrape millions of Amazon pages effortlessly. Extract product information, prices, reviews, seller data, and more with Crawlbase's powerful Amazon scraping solution.
