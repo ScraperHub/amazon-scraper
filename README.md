@@ -1,3 +1,10 @@
+<a href="https://crawlbase.com/signup?utm_source=github&utm_medium=readme&utm_campaign=crawling_api_banner" target="_blank">
+  <img src="https://github.com/user-attachments/assets/afa4f6e7-25fb-442c-af2f-b4ddcfd62ab2" 
+       alt="crawling-api-cta" 
+       style="max-width: 100%; border: 0;">
+</a>
+
+
 # Amazon Scraper
 
 Scrape millions of Amazon pages effortlessly. Extract product information, prices, reviews, seller data, and more with Crawlbase's powerful Amazon scraping solution.
@@ -100,7 +107,7 @@ Execute JavaScript and wait for dynamic content to load before extraction.
 ## 🚦 Getting Started
 
 ### Prerequisites
-- Crawlbase account (sign up at [crawlbase.com](https://crawlbase.com))
+- Crawlbase account (sign up at [crawlbase.com](https://crawlbase.com/signup?signup=blog&utm_source=github))
 - API token from your dashboard
 
 ### Installation
@@ -226,14 +233,13 @@ Visit [crawlbase.com/pricing](https://crawlbase.com/pricing) for current pricing
 
 - [API Documentation](https://crawlbase.com/docs)
 - [Amazon Scraper Guide](https://crawlbase.com/docs/amazon-scraper)
-- [Code Examples](https://crawlbase.com/docs/examples)
-- [Video Tutorials](https://crawlbase.com/tutorials)
+- [Code Examples](https://crawlbase.com/docs/crawling-api/scrapers/#amazon)
+- [Video Tutorials](https://www.youtube.com/@CrawlbaseChannel)
 
 ## 🤝 Support
 
 - **Email**: support@crawlbase.com
 - **Live Chat**: Available on our website
-- **Documentation**: [docs.crawlbase.com](https://docs.crawlbase.com)
 - **Status Page**: [status.crawlbase.com](https://status.crawlbase.com)
 
 ## 📝 Frequently Asked Questions
@@ -324,8 +330,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Website](https://crawlbase.com)
 - [Amazon Scraper Page](https://crawlbase.com/amazon-scraper)
 - [Blog](https://crawlbase.com/blog)
-- [Twitter](https://twitter.com/crawlbase)
-- [LinkedIn](https://linkedin.com/company/crawlbase)
 
 ---
 
