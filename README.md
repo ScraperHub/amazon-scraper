@@ -106,7 +106,7 @@ Execute JavaScript and wait for dynamic content to load before extraction.
 
 ### Prerequisites
 - Crawlbase account (sign up at [crawlbase.com](https://crawlbase.com/signup?signup=blog&utm_source=github))
-- API token from your dashboard
+- API token from your Crawlbase dashboard
 
 ### Installation
 
