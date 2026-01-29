@@ -44,7 +44,6 @@ Crawlbase is the most reliable and efficient solution for large-scale Amazon dat
 - Millions of requests per day
 - Automatic retries and error handling
 - Data validation and quality checks
-- 4 terabytes of data processed monthly across 195 countries
 
 ### Easy to Use, Even with Limited English Knowledge
 
