@@ -25,7 +25,7 @@ Scrape millions of Amazon pages effortlessly. Extract product information, price
 - **Average data error: 0.01%** - Industry-leading accuracy
 - **100% CAPTCHA bypass** - Automatic CAPTCHA solving
 - **Override rate by proxy** - Built-in proxy rotation
-- **No API keys, global access** - Worldwide scraping without restrictions
+- **Global access** - Worldwide scraping without restrictions
 - **Fresh dynamic updates** - Real-time data extraction
 
 ## 🏢 Trusted By
