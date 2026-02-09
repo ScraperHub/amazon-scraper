@@ -60,10 +60,10 @@ Access Amazon sites globally with our distributed proxy network spanning multipl
 **Automated execution using the Auto-adjust Job delivery**
 Smart scheduling automatically adjusts crawling speed based on your needs and site conditions.
 
-**Protect your Crawler from getting blocked with our retry, and CAPTCHA**
+**Protect your Crawler from getting blocked with our retry and CAPTCHA**
 Advanced anti-detection mechanisms keep your scrapers running smoothly without interruptions.
 
-**Export data in various file types such as CSV, HTML, and JSON**
+**Export data in various file types such as HTML and JSON**
 Flexible data export options integrate seamlessly with your existing workflows and tools.
 
 **Fetch dynamically high-quality AJAX Javascript data**
@@ -163,7 +163,7 @@ api.get('https://www.amazon.com/dp/PRODUCT_ASIN', {
 | `url` | string | Amazon URL to scrape | Required |
 | `scraper` | string | Scraper type | Required |
 | `country` | string | Amazon country domain (com, co.uk, de, etc.) | com |
-| `format` | string | Output format (json, csv, html) | json |
+| `format` | string | Output format (json, html) | json |
 | `ajax_wait` | boolean | Wait for AJAX content | false |
 | `page_wait` | integer | Wait time in milliseconds | 0 |
 
@@ -211,7 +211,6 @@ Use our Crawlbase API to get the best of the web - scrape data from any country'
 ### Multiple Export Formats
 Export your scraped data in various formats:
 - **JSON** - Perfect for API integrations
-- **CSV** - Easy import into spreadsheets
 - **HTML** - Visual inspection and archiving
 
 ## 🔒 Compliance & Ethics
