@@ -243,7 +243,7 @@ Visit [crawlbase.com/pricing](https://crawlbase.com/pricing) for current pricing
 ### Is it legal to scrape Amazon?
 Scraping publicly available data is generally legal. Always ensure compliance with local laws, Amazon's terms of service, and applicable regulations. We recommend consulting legal counsel for specific use cases.
 
-### Do you have changing factors for HTTP protocol/code like?
+### Do you have changing factors for the HTTP protocol/code like?
 Yes, our system automatically handles HTTP protocols, headers, and user agents to ensure successful scraping without detection.
 
 ### What are the benefits of using an Amazon scraper?
@@ -281,35 +281,6 @@ response = api.get('https://www.amazon.com/dp/B08N5WRWNW', {
 print(response['body'])
 ```
 
-### PHP Example
-```php
-<?php
-require 'vendor/autoload.php';
-
-use Crawlbase\API as CrawlingAPI;
-
-$api = new CrawlingAPI(['token' => 'YOUR_TOKEN']);
-
-$response = $api->get('https://www.amazon.com/dp/B08N5WRWNW', [
-    'scraper' => 'amazon-product-scraper'
-]);
-
-echo $response->body;
-?>
-```
-
-### Ruby Example
-```ruby
-require 'crawlbase'
-
-api = Crawlbase::API.new(token: 'YOUR_TOKEN')
-
-response = api.get('https://www.amazon.com/dp/B08N5WRWNW', {
-  scraper: 'amazon-product-scraper'
-})
-
-puts response['body']
-```
 
 ## 📄 License
 
@@ -320,12 +291,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with ❤️ by the Crawlbase team
 - Serving 70,000+ satisfied customers worldwide
 - Processing 4TB of data monthly across 195 countries
-
-## 🔗 Links
-
-- [Website](https://crawlbase.com)
-- [Amazon Scraper Page](https://crawlbase.com/amazon-scraper)
-- [Blog](https://crawlbase.com/blog)
 
 ---
 
