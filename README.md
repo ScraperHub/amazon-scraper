@@ -66,7 +66,7 @@ Advanced anti-detection mechanisms keep your scrapers running smoothly without i
 **Export data in various file types such as HTML and JSON**
 Flexible data export options integrate seamlessly with your existing workflows and tools.
 
-**Fetch dynamically high-quality AJAX Javascript data**
+**Fetch dynamically high-quality Javascript data**
 Execute JavaScript and wait for dynamic content to load before extraction.
 
 ## 📊 Live Amazon Scraper Demo
@@ -164,7 +164,6 @@ api.get('https://www.amazon.com/dp/PRODUCT_ASIN', {
 | `scraper` | string | Scraper type | Required |
 | `country` | string | Amazon country domain (com, co.uk, de, etc.) | com |
 | `format` | string | Output format (json, html) | json |
-| `ajax_wait` | boolean | Wait for AJAX content | false |
 | `page_wait` | integer | Wait time in milliseconds | 0 |
 
 ### Example Requests
@@ -229,7 +228,7 @@ Visit [crawlbase.com/pricing](https://crawlbase.com/pricing) for current pricing
 ## 📚 Documentation
 
 - [API Documentation](https://crawlbase.com/docs)
-- [Amazon Scraper Guide](https://crawlbase.com/docs/amazon-scraper)
+- [Amazon Scraper Page](https://crawlbase.com/amazon-scraper)
 - [Code Examples](https://crawlbase.com/docs/crawling-api/scrapers/#amazon)
 - [Video Tutorials](https://www.youtube.com/@CrawlbaseChannel)
 
