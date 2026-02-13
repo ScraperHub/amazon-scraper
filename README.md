@@ -18,7 +18,7 @@ Scrape millions of Amazon pages effortlessly. Extract product information, price
 - **Amazon Seller's Information** - Get detailed seller profiles and metrics
 - **Amazon Reviews** - Scrape customer reviews with ratings and dates
 - **Amazon Product Description** - Extract full product details and specifications
-- **Amazon That Ads** - Capture sponsored product information
+- **Amazon Paid Ads** - Capture sponsored product information
 
 ### Advanced Features
 - **Small, simple & quick** - Easy setup with minimal configuration
@@ -44,30 +44,6 @@ Crawlbase is the most reliable and efficient solution for large-scale Amazon dat
 - Millions of requests per day
 - Automatic retries and error handling
 - Data validation and quality checks
-
-### Easy to Use, Even with Limited English Knowledge
-
-Our API is designed for simplicity - no complex setup or technical jargon. Get started in minutes with straightforward documentation and examples.
-
-### Overview of Crawlbase's Amazon Scraper
-
-**Easy to use, even with limited English knowledge**
-Simple API endpoints and clear documentation make integration effortless for developers worldwide.
-
-**Highly scalable with using our worldwide proxies**
-Access Amazon sites globally with our distributed proxy network spanning multiple countries.
-
-**Automated execution using the Auto-adjust Job delivery**
-Smart scheduling automatically adjusts crawling speed based on your needs and site conditions.
-
-**Protect your Crawler from getting blocked with our retry and CAPTCHA**
-Advanced anti-detection mechanisms keep your scrapers running smoothly without interruptions.
-
-**Export data in various file types such as HTML and JSON**
-Flexible data export options integrate seamlessly with your existing workflows and tools.
-
-**Fetch dynamically high-quality Javascript data**
-Execute JavaScript and wait for dynamic content to load before extraction.
 
 ## 📊 Live Amazon Scraper Demo
 
@@ -116,22 +92,32 @@ npm install crawlbase
 
 ### Quick Start
 
-```javascript
-const { CrawlingAPI } = require('crawlbase');
+```Python
+from crawlbase import CrawlingAPI
 
-const api = new CrawlingAPI({ token: 'YOUR_TOKEN' });
+# Set your Crawlbase token
+crawlbase_token = 'YOUR_CRAWLBASE_TOKEN'
 
-// Scrape an Amazon product page
-api.get('https://www.amazon.com/dp/PRODUCT_ASIN', {
-  scraper: 'amazon-product-scraper'
-})
-.then(response => {
-  const productData = JSON.parse(response.body);
-  console.log(productData);
-})
-.catch(error => {
-  console.error(error);
-});
+# URL of the Amazon page to scrape
+amazon_page_url = 'https://www.amazon.com/Best-Sellers-Computers-Accessories/zgbs/pc'
+
+# Create a Crawlbase API instance with your token
+api = CrawlingAPI({ 'token': crawlbase_token })
+
+try: # Send a GET request to crawl the URL
+response = api.get(amazon_page_url)
+    # Check if the response status code is 200 (OK)
+    if 'status_code' in response:
+        if response['status_code'] == 200:
+            # Print the response body
+            print(response['body'])
+        else:
+            print(f"Request failed with status code: {response['status_code']}")
+    else:
+        print("Response does not contain a status code.")
+
+except Exception as e: # Handle any exceptions or errors
+print(f"An error occurred: {str (e)}")
 ```
 
 ## 📋 Use Cases
@@ -150,11 +136,12 @@ api.get('https://www.amazon.com/dp/PRODUCT_ASIN', {
 
 | Scraper | Description |
 |---------|-------------|
-| `amazon-product-scraper` | Extract product details, prices, and specifications |
-| `amazon-reviews-scraper` | Scrape customer reviews and ratings |
-| `amazon-search-scraper` | Search results and product listings |
-| `amazon-bestsellers-scraper` | Best seller rankings and trends |
-| `amazon-seller-scraper` | Seller information and metrics |
+| `amazon-product-details` | Extract product details, prices, and specifications |
+| `amazon-serp` | Scrape customer reviews and ratings |
+| `amazon-offer-listing` | Search results and product listings |
+| `amazon-best-sellers` | Best seller rankings and trends |
+| `amazon-new-releases` | Seller information and metrics |
+
 
 ### Parameters
 
