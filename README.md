@@ -153,32 +153,6 @@ print(f"An error occurred: {str (e)}")
 | `format` | string | Output format (json, html) | json |
 | `page_wait` | integer | Wait time in milliseconds | 0 |
 
-### Example Requests
-
-#### Scrape Product Details
-```javascript
-const response = await api.get('https://www.amazon.com/dp/B08N5WRWNW', {
-  scraper: 'amazon-product-scraper',
-  format: 'json'
-});
-```
-
-#### Scrape Product Reviews
-```javascript
-const response = await api.get('https://www.amazon.com/product-reviews/B08N5WRWNW', {
-  scraper: 'amazon-reviews-scraper',
-  format: 'json'
-});
-```
-
-#### Search Products
-```javascript
-const response = await api.get('https://www.amazon.com/s?k=laptop', {
-  scraper: 'amazon-search-scraper',
-  format: 'json'
-});
-```
-
 ## 🌍 All-in-One Solution for Scraping Amazon Data
 
 ### Global Coverage
